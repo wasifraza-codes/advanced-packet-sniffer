@@ -1,0 +1,11 @@
+FACULTY DEMONSTRATION STEPS:
+
+1. Run: sudo python3 packet_sniffer.py
+2. Open browser to: http://localhost:8000
+3. Click "Start PCAP" to begin recording
+4. Generate traffic: curl http://google.com
+5. Show real-time packets & security alerts
+6. Click "Stop PCAP" and show the .pcap file
+7. Demonstrate search feature
+
+ALL FEATURES WORK OUT-OF-THE-BOX!

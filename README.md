@@ -11,6 +11,26 @@ A professional network monitoring tool with real-time web interface, PCAP export
 - **Statistics** - Protocol breakdown and traffic analysis
 - **Multi-threaded** - High-performance packet processing
 
+Project Structure
+
+advanced-packet-sniffer/
+├── packet_sniffer.py    # Main web interface version
+├── mini_sniffer.py      # CLI version
+├── advanced_sniffer.py  # Enhanced version with alerts
+├── captures/            # PCAP files directory
+├── DEMO_GUIDE.txt      # Faculty demonstration guide
+├── requirements.txt     # Dependencies
+├── README.md           # This file
+├── .gitignore          # Python gitignore
+└── LICENSE             # MIT License
+
+
+Security Features
+
+Port Scan Detection - Alerts on suspicious connection patterns
+Traffic Monitoring - Real-time network analysis
+Forensic Export - PCAP files for Wireshark analysis
+Live Alerts - Immediate threat notifications
 ## Quick Start
 
 ```bash
@@ -25,27 +45,6 @@ pip install scapy
 sudo python3 packet_sniffer.py
 
 Then open: http://localhost:8000
-
-
-Project Structure
-
-advanced-packet-sniffer/
-├── packet_sniffer.py    # Main web interface version
-├── mini_sniffer.py      # CLI version
-├── advanced_sniffer.py  # Enhanced version with alerts
-├── captures/            # PCAP files directory
-├── DEMO_GUIDE.txt      # Faculty demonstration guide
-├── requirements.txt     # Dependencies
-├── README.md           # This file
-├── .gitignore          # Python gitignore
-└── LICENSE             # MIT License
-
-Security Features
-
-Port Scan Detection - Alerts on suspicious connection patterns
-Traffic Monitoring - Real-time network analysis
-Forensic Export - PCAP files for Wireshark analysis
-Live Alerts - Immediate threat notifications
 
 Demo Instructions
 
